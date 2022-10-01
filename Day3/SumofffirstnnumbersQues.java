@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Sumofffirstnnumbers {
+public class SumofffirstnnumbersQues {
  public static void main(String[] args){
     System.out.println("Enter n");
     Scanner a=new Scanner(System.in);
