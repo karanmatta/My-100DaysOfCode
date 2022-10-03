@@ -2,13 +2,17 @@ import java.util.*;
  
 public class Rectanglepattern{
    public static void main(String args[]) {
-       int n = 5;
-       int m = 4;
-       for(int i=0; i<n; i++) {
-           for(int j=0; j<m; j++) {
-               System.out.print("*");
-           }
-           System.out.println();
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter n");
+       int n=sc.nextInt();//n=4
+       System.out.println("Enter m");
+       int m =sc.nextInt();//m=5
+//Outer Loop
+       for(int i=1; i<=n; i++){
+        //Inner Loop
+        for (int j=1; j<=m; j++){
+            System.out.print("*");
+        }System.out.println();
+       }
        }
    }
-}
