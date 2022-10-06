@@ -18,6 +18,7 @@ public class Buttonifelse {
         }
         else{
             System.out.println("Invalid button");
+            sc.close();
         }
             
 }
