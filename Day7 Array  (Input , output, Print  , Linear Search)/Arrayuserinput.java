@@ -11,7 +11,7 @@ public class Arrayuserinput {
         for(int i=0;i<size;i++){
             
 
-            System.out.println("Enter values")
+            System.out.println("Enter values");
             number[i] = sc.nextInt();
         }
         
