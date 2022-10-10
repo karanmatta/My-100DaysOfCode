@@ -26,7 +26,7 @@ public class StringBuildappend{
         //append is used to append the string at the end of the string
         
         //.length is used to find the length of the string
-        System.out.println("Length of string is: "+sb.length());
+        System.out.println("Length of string is:  "+sb.length());
 
 
         

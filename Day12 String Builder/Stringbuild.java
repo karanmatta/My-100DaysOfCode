@@ -5,6 +5,8 @@ public class Stringbuild {
         System.out.println(sb);
         // char at index 0
         System.out.println(sb.charAt(0));
+
+        
         
     }
 
