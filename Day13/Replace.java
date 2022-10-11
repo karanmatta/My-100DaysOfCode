@@ -1,35 +1,31 @@
 import java.util.*;
-
-public class Replacestring {
+ 
+public class Replace {
    public static void main(String args[]) {
+//strinBuilder
+
+
+
      Scanner sc = new Scanner (System.in);
      String str = sc.next();
+     StringBuilder sb= new StringBuilder(str);
      String result = "";
 
-    //  if(str.contains("e")) {
-    //    result = str.replace("e", "i");
-    //  } else {
-    //    result = str;
-    //  }
-   
-
+ 
      for(int i=0; i<str.length(); i++) {
-        
        if(str.charAt(i) == 'e') {
          result += 'i';
        } else if (str.charAt(i) != 'e'){
         System.out.print("No e's in the string");
-        return ;
-
-       }else{
+        return ;}
+        else {
          result += str.charAt(i);
        }
      }
-
+ 
      System.out.println(result);
    }
 }
-
 
 /*   
  * Test Case 1:
