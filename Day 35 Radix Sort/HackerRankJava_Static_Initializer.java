@@ -43,4 +43,3 @@ System.out.print(area);
 }        
 }//end of main
 }//end of class
-
